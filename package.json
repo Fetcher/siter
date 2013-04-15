@@ -1,7 +1,7 @@
 {
   "name": "siter",
   "description": "Site content parser for popular websites with fallback to Open Graph and Twitter Cards",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha2",
   "author": "Fernando Vía Canel <fernando.via@gmail.com>",
   "contributors": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "dependencies": {
-    "request": "latest"
+    "request": "2.16.6"
   },
   "keywords": [
     "siter",
@@ -25,13 +25,6 @@
   ],
   "repository": "git://github.com/Fetcher/siter",
   "main": "index",
-  "bin": {
-    "express": "./bin/express"
-  },
-  "scripts": {
-    "prepublish": "npm prune",
-    "test": "make test"
-  },
   "engines": {
     "node": "*"
   }

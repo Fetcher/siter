@@ -1,1 +1,1 @@
-modules.export = require('./lib/siter.js');
+module.exports = require('./lib/siter.js');
