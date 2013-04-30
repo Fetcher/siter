@@ -13,6 +13,12 @@ siter( process.argv[process.argv.length - 1], {
     console.log(url);
   },
 
+  article: function(url,site,data){
+    console.log(url);
+    console.log(site);
+    console.log(data);
+  },
+
   error: function (error, site) {
     console.log(error);
     console.log("In site: " + site);
