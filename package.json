@@ -1,7 +1,7 @@
 {
   "name": "siter",
   "description": "Site content parser for popular websites with fallback to Open Graph and Twitter Cards",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "Fernando Vía Canel <fernando.via@gmail.com>",
   "contributors": [
     {
@@ -14,7 +14,8 @@
     }
   ],
   "dependencies": {
-    "request": "2.16.6"
+    "request": "2.16.6",
+    "cheerio": "0.11.0"
   },
   "keywords": [
     "siter",
