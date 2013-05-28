@@ -1,8 +1,7 @@
 {
   "name": "siter",
   "description": "Site content parser for popular websites with fallback to Open Graph and Twitter Cards",
-  "version": "0.0.13",
-  "author": "Fernando Vía Canel <fernando.via@gmail.com>",
+  "version": "0.0.14",
   "contributors": [
     {
       "name": "Fernando Vía Canel",
