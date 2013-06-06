@@ -27,7 +27,9 @@ siter( process.argv[process.argv.length - 1], {
   },
 
   error: function (error, site) {
-    console.log(error);
+    console.log(error.message);
+    console.log(error.stack);
+
     console.log("In site: " + site);
     console.log("With URL: " + process.argv[process.argv.length - 1]);
   }
